@@ -1,0 +1,9 @@
+#
+# Bunkspeed OBJ Material File
+# http://www.bunkspeed.com
+#
+
+newmtl Basic_Purple_Paint
+Kd 0.3921569 0.1882353 0.5764706
+Ks 0.5 0.5 0.5
+illum 2

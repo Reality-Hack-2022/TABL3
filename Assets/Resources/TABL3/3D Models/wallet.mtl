@@ -1,0 +1,13 @@
+#
+# Bunkspeed OBJ Material File
+# http://www.bunkspeed.com
+#
+
+newmtl Soft_Leather_2
+Kd 0.2666667 0.2666667 0.2666667
+Ks 0.5 0.5 0.5
+map_Ks C:\Users\azeem\Documents\SOLIDWORKS Visualize Content\Models\71be94c3-9dd1-42c1-9c42-c02bc170bcb9.dds
+map_bump -bm 5 C:\Users\azeem\Documents\SOLIDWORKS Visualize Content\Models\900d2356-91f5-4e24-8889-3075822dfbda.dds
+bump C:\Users\azeem\Documents\SOLIDWORKS Visualize Content\Models\900d2356-91f5-4e24-8889-3075822dfbda.dds
+illum 2
+Ns 2.552935
