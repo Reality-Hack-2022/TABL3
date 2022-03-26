@@ -3720,6 +3720,94 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.MonoBehaviour
 
+	//Start Registrations for type : UnityEngine.Networking.CertificateHandler
+
+		//System.Void UnityEngine.Networking.CertificateHandler::Release()
+		void Register_UnityEngine_Networking_CertificateHandler_Release();
+		Register_UnityEngine_Networking_CertificateHandler_Release();
+
+	//End Registrations for type : UnityEngine.Networking.CertificateHandler
+
+	//Start Registrations for type : UnityEngine.Networking.DownloadHandler
+
+		//System.Byte* UnityEngine.Networking.DownloadHandler::InternalGetByteArray(UnityEngine.Networking.DownloadHandler,System.Int32&)
+		void Register_UnityEngine_Networking_DownloadHandler_InternalGetByteArray();
+		Register_UnityEngine_Networking_DownloadHandler_InternalGetByteArray();
+
+		//System.String UnityEngine.Networking.DownloadHandler::GetContentType()
+		void Register_UnityEngine_Networking_DownloadHandler_GetContentType();
+		Register_UnityEngine_Networking_DownloadHandler_GetContentType();
+
+		//System.Void UnityEngine.Networking.DownloadHandler::Release()
+		void Register_UnityEngine_Networking_DownloadHandler_Release();
+		Register_UnityEngine_Networking_DownloadHandler_Release();
+
+	//End Registrations for type : UnityEngine.Networking.DownloadHandler
+
+	//Start Registrations for type : UnityEngine.Networking.DownloadHandlerBuffer
+
+		//System.IntPtr UnityEngine.Networking.DownloadHandlerBuffer::Create(UnityEngine.Networking.DownloadHandlerBuffer)
+		void Register_UnityEngine_Networking_DownloadHandlerBuffer_Create();
+		Register_UnityEngine_Networking_DownloadHandlerBuffer_Create();
+
+	//End Registrations for type : UnityEngine.Networking.DownloadHandlerBuffer
+
+	//Start Registrations for type : UnityEngine.Networking.UnityWebRequest
+
+		//System.Boolean UnityEngine.Networking.UnityWebRequest::get_isModifiable()
+		void Register_UnityEngine_Networking_UnityWebRequest_get_isModifiable();
+		Register_UnityEngine_Networking_UnityWebRequest_get_isModifiable();
+
+		//System.IntPtr UnityEngine.Networking.UnityWebRequest::Create()
+		void Register_UnityEngine_Networking_UnityWebRequest_Create();
+		Register_UnityEngine_Networking_UnityWebRequest_Create();
+
+		//System.String UnityEngine.Networking.UnityWebRequest::GetWebErrorString(UnityEngine.Networking.UnityWebRequest/UnityWebRequestError)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetWebErrorString();
+		Register_UnityEngine_Networking_UnityWebRequest_GetWebErrorString();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::Abort()
+		void Register_UnityEngine_Networking_UnityWebRequest_Abort();
+		Register_UnityEngine_Networking_UnityWebRequest_Abort();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::Release()
+		void Register_UnityEngine_Networking_UnityWebRequest_Release();
+		Register_UnityEngine_Networking_UnityWebRequest_Release();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetCustomMethod(System.String)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetCustomMethod();
+		Register_UnityEngine_Networking_UnityWebRequest_SetCustomMethod();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetDownloadHandler(UnityEngine.Networking.DownloadHandler)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetDownloadHandler();
+		Register_UnityEngine_Networking_UnityWebRequest_SetDownloadHandler();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetMethod(UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetMethod();
+		Register_UnityEngine_Networking_UnityWebRequest_SetMethod();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUploadHandler(UnityEngine.Networking.UploadHandler)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetUploadHandler();
+		Register_UnityEngine_Networking_UnityWebRequest_SetUploadHandler();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUrl(System.String)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetUrl();
+		Register_UnityEngine_Networking_UnityWebRequest_SetUrl();
+
+		//UnityEngine.Networking.UnityWebRequestAsyncOperation UnityEngine.Networking.UnityWebRequest::BeginWebRequest()
+		void Register_UnityEngine_Networking_UnityWebRequest_BeginWebRequest();
+		Register_UnityEngine_Networking_UnityWebRequest_BeginWebRequest();
+
+	//End Registrations for type : UnityEngine.Networking.UnityWebRequest
+
+	//Start Registrations for type : UnityEngine.Networking.UploadHandler
+
+		//System.Void UnityEngine.Networking.UploadHandler::Release()
+		void Register_UnityEngine_Networking_UploadHandler_Release();
+		Register_UnityEngine_Networking_UploadHandler_Release();
+
+	//End Registrations for type : UnityEngine.Networking.UploadHandler
+
 	//Start Registrations for type : UnityEngine.NoAllocHelpers
 
 		//System.Array UnityEngine.NoAllocHelpers::ExtractArrayFromList(System.Object)

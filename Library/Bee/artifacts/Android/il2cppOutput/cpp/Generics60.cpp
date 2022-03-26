@@ -105,10 +105,18 @@ struct Dictionary_2_t9B2ADF59B0E83212023684CAE164D0B1C22E800C;
 struct Dictionary_2_tB13D0A847475988F23522A8642F7D24BA304F9B7;
 // System.Collections.Generic.Dictionary`2<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,UnityEngine.UIElements.StylePropertyAnimationSystem/TransitionState>
 struct Dictionary_2_t731456A92F8CDAA2E97323EC2790F375A9A6C71F;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.Background>
+struct EqualityComparer_1_t0180B7B2FAD2462489F5F7770DBFB010661FA29F;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.FontDefinition>
+struct EqualityComparer_1_t2B9B08D0DC828BC7CB837C0507B1D1EF73DD7BF8;
 // System.Collections.Generic.EqualityComparer`1<System.Object>
 struct EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2;
 // System.Func`2<System.Single,System.Single>
 struct Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2;
+// System.Func`3<UnityEngine.UIElements.Background,UnityEngine.UIElements.Background,System.Boolean>
+struct Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE;
+// System.Func`3<UnityEngine.UIElements.FontDefinition,UnityEngine.UIElements.FontDefinition,System.Boolean>
+struct Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0;
 // System.Func`3<System.Object,System.Object,System.Boolean>
 struct Func_3_tFCEB9D8CEAECBF6D0AD5440F96C6F9010270CE79;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair>
@@ -187,6 +195,10 @@ struct TransitionEventsFrameState_t9DC16C7535A4271EA0FD763A64CD7CF84670EC64;
 struct ValueCollection_t65B544B071475F1D6AA36F54F506E013AC0D137E;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,UnityEngine.UIElements.StylePropertyAnimationSystem/TransitionState>
 struct ValueCollection_t6A97FB8D601D8DB0AEB18A1FA9C9B42007CB71FC;
+// UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>
+struct ValuesDiscrete_1_t63B8F92F4DAABF488DAEF85235D684338A5BF983;
+// UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>
+struct ValuesDiscrete_1_tEEAF52293B68D5800CAC73A14E2C3B3B02E6C2B1;
 // UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<System.Object>
 struct ValuesDiscrete_1_t7E99F13B947129354031274B76C3B094031D33E7;
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1<UnityEngine.UIElements.Background>
@@ -462,6 +474,28 @@ struct Dictionary_2_t731456A92F8CDAA2E97323EC2790F375A9A6C71F  : public RuntimeO
 	ValueCollection_t6A97FB8D601D8DB0AEB18A1FA9C9B42007CB71FC* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.Background>
+struct EqualityComparer_1_t0180B7B2FAD2462489F5F7770DBFB010661FA29F  : public RuntimeObject
+{
+};
+
+struct EqualityComparer_1_t0180B7B2FAD2462489F5F7770DBFB010661FA29F_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t0180B7B2FAD2462489F5F7770DBFB010661FA29F* ___defaultComparer_0;
+};
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.FontDefinition>
+struct EqualityComparer_1_t2B9B08D0DC828BC7CB837C0507B1D1EF73DD7BF8  : public RuntimeObject
+{
+};
+
+struct EqualityComparer_1_t2B9B08D0DC828BC7CB837C0507B1D1EF73DD7BF8_StaticFields
+{
+	// System.Collections.Generic.EqualityComparer`1<T> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Generic.EqualityComparer`1::defaultComparer
+	EqualityComparer_1_t2B9B08D0DC828BC7CB837C0507B1D1EF73DD7BF8* ___defaultComparer_0;
 };
 
 // System.Collections.Generic.EqualityComparer`1<System.Object>
@@ -2011,6 +2045,20 @@ struct RenderTargetMode_tAE75E29BB61A64BDE7646D5CBD353B64BCFA9F3A
 	int32_t ___value___2;
 };
 
+// UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>
+struct ValuesDiscrete_1_t63B8F92F4DAABF488DAEF85235D684338A5BF983  : public Values_1_t19A1E2B4752BCDF06B5D68597FF7E74704C6F99F
+{
+	// System.Func`3<T,T,System.Boolean> UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1::<SameFunc>k__BackingField
+	Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE* ___U3CSameFuncU3Ek__BackingField_5;
+};
+
+// UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>
+struct ValuesDiscrete_1_tEEAF52293B68D5800CAC73A14E2C3B3B02E6C2B1  : public Values_1_t45BEBFF589B2E0FB589C839603CF54DAFA8EE2B7
+{
+	// System.Func`3<T,T,System.Boolean> UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1::<SameFunc>k__BackingField
+	Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0* ___U3CSameFuncU3Ek__BackingField_5;
+};
+
 // UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<System.Object>
 struct ValuesDiscrete_1_t7E99F13B947129354031274B76C3B094031D33E7  : public Values_1_t34227637D0C93F730700DFD895768AF8F8C7FF8D
 {
@@ -2724,94 +2772,6 @@ struct TransitionStartEvent_t1DCCFED2B1D4744B1884EEF23EF75A03B8D2E5DF  : public 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Object>[]
-struct TimingDataU5BU5D_t86A2877F21E58289C845548B2244BFCA090918B1  : public RuntimeArray
-{
-	ALIGN_FIELD (8) TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 m_Items[1];
-
-	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
-	}
-	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
-	}
-};
-// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Object>[]
-struct StyleDataU5BU5D_t93B88656D82161E5A58053D74E6C823720B88361  : public RuntimeArray
-{
-	ALIGN_FIELD (8) StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 m_Items[1];
-
-	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___startValue_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___endValue_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___reversingAdjustedStartValue_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___currentValue_3), (void*)NULL);
-		#endif
-	}
-	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___startValue_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___endValue_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___reversingAdjustedStartValue_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___currentValue_3), (void*)NULL);
-		#endif
-	}
-};
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.Background>[]
 struct TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1  : public RuntimeArray
 {
@@ -2845,127 +2805,6 @@ struct TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1  : public Runt
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
-	}
-};
-// UnityEngine.UIElements.StyleSheets.StylePropertyId[]
-struct StylePropertyIdU5BU5D_t6A118EB2D7976A5AE0C4E89D3F53D4454EC7E359  : public RuntimeArray
-{
-	ALIGN_FIELD (8) int32_t m_Items[1];
-
-	inline int32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.UIElements.VisualElement[]
-struct VisualElementU5BU5D_tCAE8038767BF0FBEE26B3470C0FC4AE60E5229DF  : public RuntimeArray
-{
-	ALIGN_FIELD (8) VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* m_Items[1];
-
-	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
-// UnityEngine.UIElements.Background[]
-struct BackgroundU5BU5D_t29762095DD694E79A85A59135735FF02E54C4B46  : public RuntimeArray
-{
-	ALIGN_FIELD (8) Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 m_Items[1];
-
-	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Texture_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Sprite_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_RenderTexture_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_VectorImage_3), (void*)NULL);
-		#endif
-	}
-	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Texture_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Sprite_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_RenderTexture_2), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_VectorImage_3), (void*)NULL);
-		#endif
 	}
 };
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Background>[]
@@ -3093,6 +2932,327 @@ struct StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0  : public Runti
 		#endif
 	}
 };
+// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.FontDefinition>[]
+struct TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF m_Items[1];
+
+	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
+	}
+	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
+	}
+};
+// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.FontDefinition>[]
+struct StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043  : public RuntimeArray
+{
+	ALIGN_FIELD (8) StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 m_Items[1];
+
+	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_Font_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_Font_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_Font_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_Font_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_FontAsset_1), (void*)NULL);
+		#endif
+	}
+	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_Font_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_Font_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_Font_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_Font_0), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_FontAsset_1), (void*)NULL);
+		#endif
+	}
+};
+// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<System.Object>[]
+struct TimingDataU5BU5D_t86A2877F21E58289C845548B2244BFCA090918B1  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 m_Items[1];
+
+	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
+	}
+	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TimingData_tAC897652D090176D4DE63A3E05988D165A785F09* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TimingData_tAC897652D090176D4DE63A3E05988D165A785F09 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
+	}
+};
+// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<System.Object>[]
+struct StyleDataU5BU5D_t93B88656D82161E5A58053D74E6C823720B88361  : public RuntimeArray
+{
+	ALIGN_FIELD (8) StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 m_Items[1];
+
+	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___startValue_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___endValue_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___reversingAdjustedStartValue_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___currentValue_3), (void*)NULL);
+		#endif
+	}
+	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, StyleData_t8D2C4DFD73B2CF505708E2AC1C384DE4D6CE30C6 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___startValue_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___endValue_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___reversingAdjustedStartValue_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___currentValue_3), (void*)NULL);
+		#endif
+	}
+};
+// UnityEngine.UIElements.StyleSheets.StylePropertyId[]
+struct StylePropertyIdU5BU5D_t6A118EB2D7976A5AE0C4E89D3F53D4454EC7E359  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.UIElements.VisualElement[]
+struct VisualElementU5BU5D_tCAE8038767BF0FBEE26B3470C0FC4AE60E5229DF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* m_Items[1];
+
+	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// UnityEngine.UIElements.Background[]
+struct BackgroundU5BU5D_t29762095DD694E79A85A59135735FF02E54C4B46  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 m_Items[1];
+
+	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Texture_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Sprite_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_RenderTexture_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_VectorImage_3), (void*)NULL);
+		#endif
+	}
+	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Texture_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Sprite_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_RenderTexture_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_VectorImage_3), (void*)NULL);
+		#endif
+	}
+};
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.Color>[]
 struct TimingDataU5BU5D_t03C8C38B8DBF52B9A23FB2B77BEC41E63D4A3994  : public RuntimeArray
 {
@@ -3194,41 +3354,6 @@ struct StyleDataU5BU5D_t73BFD33363F897414B879236BE0A0DCA6962B9AB  : public Runti
 		m_Items[index] = value;
 	}
 };
-// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData<UnityEngine.UIElements.FontDefinition>[]
-struct TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651  : public RuntimeArray
-{
-	ALIGN_FIELD (8) TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF m_Items[1];
-
-	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
-	}
-	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___easingCurve_2), (void*)NULL);
-	}
-};
 // UnityEngine.UIElements.FontDefinition[]
 struct FontDefinitionU5BU5D_t31BDC3E2D72918B36F815F95F7CBA1F057E3DA39  : public RuntimeArray
 {
@@ -3267,83 +3392,6 @@ struct FontDefinitionU5BU5D_t31BDC3E2D72918B36F815F95F7CBA1F057E3DA39  : public 
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Font_0), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_FontAsset_1), (void*)NULL);
-		#endif
-	}
-};
-// UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.FontDefinition>[]
-struct StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043  : public RuntimeArray
-{
-	ALIGN_FIELD (8) StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 m_Items[1];
-
-	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_Font_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_FontAsset_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_Font_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_FontAsset_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_Font_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_FontAsset_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_Font_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_FontAsset_1), (void*)NULL);
-		#endif
-	}
-	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472 value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_Font_0), (void*)NULL);
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___startValue_0))->___m_FontAsset_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_Font_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___endValue_1))->___m_FontAsset_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_Font_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___reversingAdjustedStartValue_2))->___m_FontAsset_1), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_Font_0), (void*)NULL);
-		#endif
-		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((&((m_Items + index)->___currentValue_3))->___m_FontAsset_1), (void*)NULL);
 		#endif
 	}
 };
@@ -4485,6 +4533,278 @@ inline void AnimationDataSet_2_Add_mD9E103E35AF587C61B28AD047AE06ACDCEB0D73F (An
 {
 	((  void (*) (AnimationDataSet_2_tC89D9008D3FFA8DFDC3145842EFEC11F9D8EBEAC*, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*, int32_t, EmptyData_t4FC1686BC526371087AD5A5B28DBE30D1ECDD533, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7, const RuntimeMethod*))AnimationDataSet_2_Add_mD9E103E35AF587C61B28AD047AE06ACDCEB0D73F_gshared)(__this, ___owner0, ___prop1, ___timingData2, ___styleData3, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Func`3<T,T,System.Boolean> UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>::get_SameFunc()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE* ValuesDiscrete_1_get_SameFunc_mBB45804F3361710C3707C053E53C6B150652ED0E_gshared (ValuesDiscrete_1_t63B8F92F4DAABF488DAEF85235D684338A5BF983* __this, const RuntimeMethod* method) 
+{
+	{
+		Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE* L_0 = (Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE*)__this->___U3CSameFuncU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Boolean UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>::IsSame(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValuesDiscrete_1_IsSame_mA613213B04566D1840CCF5393ACE2FF880484D02_gshared (Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___a0, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___b1, const RuntimeMethod* method) 
+{
+	{
+		EqualityComparer_1_t0180B7B2FAD2462489F5F7770DBFB010661FA29F* L_0;
+		L_0 = ((  EqualityComparer_1_t0180B7B2FAD2462489F5F7770DBFB010661FA29F* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_1 = ___a0;
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_2 = ___b1;
+		NullCheck(L_0);
+		bool L_3;
+		L_3 = VirtualFuncInvoker2< bool, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.Background>::Equals(T,T) */, L_0, L_1, L_2);
+		return L_3;
+	}
+}
+// T UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>::Lerp(T,T,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ValuesDiscrete_1_Lerp_m8D34669B40502149C8600024D75A96C8A947711F_gshared (Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___a0, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___b1, float ___t2, const RuntimeMethod* method) 
+{
+	Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		float L_0 = ___t2;
+		if ((((float)L_0) < ((float)(0.5f))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_1 = ___b1;
+		G_B3_0 = L_1;
+		goto IL_000c;
+	}
+
+IL_000b:
+	{
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_2 = ___a0;
+		G_B3_0 = L_2;
+	}
+
+IL_000c:
+	{
+		return G_B3_0;
+	}
+}
+// System.Void UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>::UpdateValues()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValuesDiscrete_1_UpdateValues_m87870D7A9CF13337C7E9D3782D62662914439FDE_gshared (ValuesDiscrete_1_t63B8F92F4DAABF488DAEF85235D684338A5BF983* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TimingData_t9A97DB81A0CFA7AC972B32A494B47406B711AD0D* V_2 = NULL;
+	StyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6* V_3 = NULL;
+	bool V_4 = false;
+	{
+		AnimationDataSet_2_tA243970D144368E3CCB216CDCA976F7B00517D50* L_0 = (AnimationDataSet_2_tA243970D144368E3CCB216CDCA976F7B00517D50*)(&((Values_1_t19A1E2B4752BCDF06B5D68597FF7E74704C6F99F*)__this)->___running_3);
+		int32_t L_1 = (int32_t)L_0->___count_4;
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0058;
+	}
+
+IL_0011:
+	{
+		AnimationDataSet_2_tA243970D144368E3CCB216CDCA976F7B00517D50* L_2 = (AnimationDataSet_2_tA243970D144368E3CCB216CDCA976F7B00517D50*)(&((Values_1_t19A1E2B4752BCDF06B5D68597FF7E74704C6F99F*)__this)->___running_3);
+		TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1* L_3 = (TimingDataU5BU5D_t0DDECCB612303E94B577E5978AB4B36B5192AFB1*)L_2->___timing_2;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		V_2 = ((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)));
+		AnimationDataSet_2_tA243970D144368E3CCB216CDCA976F7B00517D50* L_5 = (AnimationDataSet_2_tA243970D144368E3CCB216CDCA976F7B00517D50*)(&((Values_1_t19A1E2B4752BCDF06B5D68597FF7E74704C6F99F*)__this)->___running_3);
+		StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0* L_6 = (StyleDataU5BU5D_tF87CDE51588E78D4C87C144731581FB5284776E0*)L_5->___style_3;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		V_3 = ((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)));
+		StyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6* L_8 = V_3;
+		StyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6* L_9 = V_3;
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_10 = (Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8)L_9->___startValue_0;
+		StyleData_t333EEFF82EBFC5313C5D5BD07C3E5258C87D2CC6* L_11 = V_3;
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_12 = (Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8)L_11->___endValue_1;
+		TimingData_t9A97DB81A0CFA7AC972B32A494B47406B711AD0D* L_13 = V_2;
+		float L_14 = (float)L_13->___easedProgress_3;
+		Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 L_15;
+		L_15 = ((  Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 (*) (Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, float, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_10, L_12, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		L_8->___currentValue_3 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_8->___currentValue_3))->___m_Texture_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_8->___currentValue_3))->___m_Sprite_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_8->___currentValue_3))->___m_RenderTexture_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_8->___currentValue_3))->___m_VectorImage_3), (void*)NULL);
+		#endif
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0058:
+	{
+		int32_t L_17 = V_1;
+		int32_t L_18 = V_0;
+		V_4 = (bool)((((int32_t)L_17) < ((int32_t)L_18))? 1 : 0);
+		bool L_19 = V_4;
+		if (L_19)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValuesDiscrete_1__ctor_mFDAFF02FCBE6E8293FD5C7BE340D296D32DF674F_gshared (ValuesDiscrete_1_t63B8F92F4DAABF488DAEF85235D684338A5BF983* __this, const RuntimeMethod* method) 
+{
+	{
+		Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE* L_0 = (Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 8));
+		NullCheck(L_0);
+		((  void (*) (Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_0, NULL, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 7)), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
+		__this->___U3CSameFuncU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSameFuncU3Ek__BackingField_5), (void*)L_0);
+		((  void (*) (Values_1_t19A1E2B4752BCDF06B5D68597FF7E74704C6F99F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)))((Values_1_t19A1E2B4752BCDF06B5D68597FF7E74704C6F99F*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Func`3<T,T,System.Boolean> UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>::get_SameFunc()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0* ValuesDiscrete_1_get_SameFunc_mE32FC2F2B69B8E8404D73308194F19ADB320C949_gshared (ValuesDiscrete_1_tEEAF52293B68D5800CAC73A14E2C3B3B02E6C2B1* __this, const RuntimeMethod* method) 
+{
+	{
+		Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0* L_0 = (Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0*)__this->___U3CSameFuncU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Boolean UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>::IsSame(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValuesDiscrete_1_IsSame_m73FEA6D18FD19FAEA52260968CC3A1C8DB914418_gshared (FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___a0, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___b1, const RuntimeMethod* method) 
+{
+	{
+		EqualityComparer_1_t2B9B08D0DC828BC7CB837C0507B1D1EF73DD7BF8* L_0;
+		L_0 = ((  EqualityComparer_1_t2B9B08D0DC828BC7CB837C0507B1D1EF73DD7BF8* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_1 = ___a0;
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_2 = ___b1;
+		NullCheck(L_0);
+		bool L_3;
+		L_3 = VirtualFuncInvoker2< bool, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UIElements.FontDefinition>::Equals(T,T) */, L_0, L_1, L_2);
+		return L_3;
+	}
+}
+// T UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>::Lerp(T,T,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ValuesDiscrete_1_Lerp_mDEC5355E865ECF0C54DD6F1ECB75F4DA898A1463_gshared (FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___a0, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___b1, float ___t2, const RuntimeMethod* method) 
+{
+	FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		float L_0 = ___t2;
+		if ((((float)L_0) < ((float)(0.5f))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_1 = ___b1;
+		G_B3_0 = L_1;
+		goto IL_000c;
+	}
+
+IL_000b:
+	{
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_2 = ___a0;
+		G_B3_0 = L_2;
+	}
+
+IL_000c:
+	{
+		return G_B3_0;
+	}
+}
+// System.Void UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>::UpdateValues()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValuesDiscrete_1_UpdateValues_mBBB62F506C6C22EF3D51736BA9E75B1F597F9D77_gshared (ValuesDiscrete_1_tEEAF52293B68D5800CAC73A14E2C3B3B02E6C2B1* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF* V_2 = NULL;
+	StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* V_3 = NULL;
+	bool V_4 = false;
+	{
+		AnimationDataSet_2_tEF417861004C34C4652386FBC8E77254726BA9AC* L_0 = (AnimationDataSet_2_tEF417861004C34C4652386FBC8E77254726BA9AC*)(&((Values_1_t45BEBFF589B2E0FB589C839603CF54DAFA8EE2B7*)__this)->___running_3);
+		int32_t L_1 = (int32_t)L_0->___count_4;
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0058;
+	}
+
+IL_0011:
+	{
+		AnimationDataSet_2_tEF417861004C34C4652386FBC8E77254726BA9AC* L_2 = (AnimationDataSet_2_tEF417861004C34C4652386FBC8E77254726BA9AC*)(&((Values_1_t45BEBFF589B2E0FB589C839603CF54DAFA8EE2B7*)__this)->___running_3);
+		TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651* L_3 = (TimingDataU5BU5D_t45DAD27FEA03547B7581715461816FA37E7EC651*)L_2->___timing_2;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		V_2 = ((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)));
+		AnimationDataSet_2_tEF417861004C34C4652386FBC8E77254726BA9AC* L_5 = (AnimationDataSet_2_tEF417861004C34C4652386FBC8E77254726BA9AC*)(&((Values_1_t45BEBFF589B2E0FB589C839603CF54DAFA8EE2B7*)__this)->___running_3);
+		StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043* L_6 = (StyleDataU5BU5D_tD406BDE6B313334D7A7241DDEA636226CC9C0043*)L_5->___style_3;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		V_3 = ((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)));
+		StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* L_8 = V_3;
+		StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* L_9 = V_3;
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_10 = (FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C)L_9->___startValue_0;
+		StyleData_t7B881346F61A413495F318F9A8EF71C751EC6472* L_11 = V_3;
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_12 = (FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C)L_11->___endValue_1;
+		TimingData_t450BF01CAD1A7E919F8D4B1A54453DBF72EFB1AF* L_13 = V_2;
+		float L_14 = (float)L_13->___easedProgress_3;
+		FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C L_15;
+		L_15 = ((  FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C (*) (FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, float, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_10, L_12, L_14, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		L_8->___currentValue_3 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_8->___currentValue_3))->___m_Font_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_8->___currentValue_3))->___m_FontAsset_1), (void*)NULL);
+		#endif
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0058:
+	{
+		int32_t L_17 = V_1;
+		int32_t L_18 = V_0;
+		V_4 = (bool)((((int32_t)L_17) < ((int32_t)L_18))? 1 : 0);
+		bool L_19 = V_4;
+		if (L_19)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.FontDefinition>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValuesDiscrete_1__ctor_m0E4BD2599AB0377656A8065339C19DB6E099FC27_gshared (ValuesDiscrete_1_tEEAF52293B68D5800CAC73A14E2C3B3B02E6C2B1* __this, const RuntimeMethod* method) 
+{
+	{
+		Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0* L_0 = (Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 8));
+		NullCheck(L_0);
+		((  void (*) (Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_0, NULL, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 7)), il2cpp_rgctx_method(method->klass->rgctx_data, 9));
+		__this->___U3CSameFuncU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSameFuncU3Ek__BackingField_5), (void*)L_0);
+		((  void (*) (Values_1_t45BEBFF589B2E0FB589C839603CF54DAFA8EE2B7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)))((Values_1_t45BEBFF589B2E0FB589C839603CF54DAFA8EE2B7*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

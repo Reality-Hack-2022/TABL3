@@ -4771,6 +4771,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Single_Parse_m4CCF536F9DA447D8822618DF5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Single_Parse_mE704971BEA03C08E6259D9CA407E2FB3126A7CBB (String_t* ___s0, int32_t ___style1, RuntimeObject* ___provider2, const RuntimeMethod* method) ;
 // System.Double System.Decimal::op_Explicit(System.Decimal)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Decimal_op_Explicit_mD8E11417E7C50756B8243840D18275050ABABBC6 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___value0, const RuntimeMethod* method) ;
+// System.Double System.Double::Parse(System.String,System.IFormatProvider)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Double_Parse_mD1BBC6E39446A9F7DA85B5499DDE6C5E3EF4B4ED (String_t* ___s0, RuntimeObject* ___provider1, const RuntimeMethod* method) ;
 // System.Double System.Double::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Double_Parse_m282A37E997C8F446BD373A4DE4673B8FECC37866 (String_t* ___s0, int32_t ___style1, RuntimeObject* ___provider2, const RuntimeMethod* method) ;
 // System.Decimal System.Decimal::op_Implicit(System.SByte)
@@ -30939,6 +30941,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Convert_ToDouble_m01D5E2BE6DF837AB3F26
 		double L_1;
 		L_1 = Decimal_op_Explicit_mD8E11417E7C50756B8243840D18275050ABABBC6(L_0, NULL);
 		return ((double)L_1);
+	}
+}
+// System.Double System.Convert::ToDouble(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Convert_ToDouble_m23FCB26638640407FCAE05A4B1AAEC290045A7A3 (String_t* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___value0;
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (0.0);
+	}
+
+IL_000d:
+	{
+		String_t* L_1 = ___value0;
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_2;
+		L_2 = CultureInfo_get_CurrentCulture_m43D1E4E50AB1F62ADC7C1884F28F918B53871522(NULL);
+		double L_3;
+		L_3 = Double_Parse_mD1BBC6E39446A9F7DA85B5499DDE6C5E3EF4B4ED(L_1, L_2, NULL);
+		return L_3;
 	}
 }
 // System.Double System.Convert::ToDouble(System.String,System.IFormatProvider)
