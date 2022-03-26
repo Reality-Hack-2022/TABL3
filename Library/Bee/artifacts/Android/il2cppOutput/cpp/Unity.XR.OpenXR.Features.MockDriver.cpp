@@ -733,7 +733,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockDriver_ReceiveScriptEvent_m02DD920C8
 	ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1* G_B2_0 = NULL;
 	ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1* G_B1_0 = NULL;
 	{
-		// private static void ReceiveScriptEvent (ScriptEvent evt, ulong param) => onScriptEvent?.Invoke(evt, param);
 		ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1* L_0 = ((MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17_StaticFields*)il2cpp_codegen_static_fields_for(MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17_il2cpp_TypeInfo_var))->___onScriptEvent_16;
 		ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1* L_1 = L_0;
 		G_B1_0 = L_1;
@@ -766,10 +765,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockDriver_ResetDefaults_m984AC5CC5DF2D8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// onScriptEvent = null;
 		((MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17_StaticFields*)il2cpp_codegen_static_fields_for(MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17_il2cpp_TypeInfo_var))->___onScriptEvent_16 = (ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17_StaticFields*)il2cpp_codegen_static_fields_for(MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17_il2cpp_TypeInfo_var))->___onScriptEvent_16), (void*)(ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1*)NULL);
-		// }
 		return;
 	}
 }
@@ -787,7 +784,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockDriver_OnInstanceCreate_m01CA03B92AB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// if (!OpenXRRuntime.IsExtensionEnabled("XR_UNITY_mock_driver"))
 		bool L_0;
 		L_0 = OpenXRRuntime_IsExtensionEnabled_m843EDD466C2EFA0E1C1350621411522290C74716(_stringLiteral3BFAF67BC1D43F33C94D76E23C8F313BD41DDBFF, NULL);
 		if (L_0)
@@ -796,28 +792,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockDriver_OnInstanceCreate_m01CA03B92AB
 		}
 	}
 	{
-		// Debug.LogWarning("XR_UNITY_mock_driver is not enabled, disabling Mock Driver.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(_stringLiteral1FDC7B050699D12543255FBE775FDDC07F9A1BF3, NULL);
-		// return false;
 		return (bool)0;
 	}
 
 IL_0018:
 	{
-		// InitializeNative(xrGetInstanceProcAddr, instance, 0ul, 0ul);
 		intptr_t L_1;
 		L_1 = OpenXRFeature_get_xrGetInstanceProcAddr_m616F5709A63844DA12D409E8FEF4929EFA9F5B22(NULL);
 		uint64_t L_2 = ___instance0;
 		intptr_t L_3;
 		L_3 = MockDriver_InitializeNative_mFF63260B5E7354460BFFA8654A178000C65CA0F2(L_1, L_2, ((int64_t)0), ((int64_t)0), NULL);
-		// MockDriver_RegisterScriptEventCallback(ReceiveScriptEvent);
 		ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1* L_4 = (ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1*)il2cpp_codegen_object_new(ScriptEventDelegate_tAB5700EBE916CEAE5D6AC378A39A837AC2BC90B1_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
 		ScriptEventDelegate__ctor_mD5F27EA5643A1BD3D22D66C3D4FE89799B70930E(L_4, NULL, (intptr_t)((void*)MockDriver_ReceiveScriptEvent_m02DD920C8DD9F0F69295FF330269F1D3C1EBC49C_RuntimeMethod_var), NULL);
 		int32_t L_5;
 		L_5 = MockDriver_MockDriver_RegisterScriptEventCallback_m39C8E09B89D20375AF2DD3C8ACAD633B053C9779(L_4, NULL);
-		// return true;
 		return (bool)1;
 	}
 }
@@ -825,10 +816,8 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockDriver_OnInstanceDestroy_m2DC29C9BCC7AFBD22828418B655E30A582A55BBE (MockDriver_tC0F7ED242EF63DA7803BDB4A5DA7121BE53DEC17* __this, uint64_t ___xrInstance0, const RuntimeMethod* method) 
 {
 	{
-		// ShutdownNative(0);
 		intptr_t L_0;
 		L_0 = MockDriver_ShutdownNative_m9DEB4E32813F4F3AB8E57262727EA0366BEF5CF1(((int64_t)0), NULL);
-		// }
 		return;
 	}
 }
