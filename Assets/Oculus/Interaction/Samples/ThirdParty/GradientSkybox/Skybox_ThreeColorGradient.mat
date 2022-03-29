@@ -19,12 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
+    m_Ints: []
     m_Floats:
     - _DitherStrength: 32
-    - _Exp: 0.98
+    - _Exp: 2.4
     m_Colors:
-    - _BottomColor: {r: 0.3372549, g: 0.34509805, b: 0.36862746, a: 1}
-    - _MiddleColor: {r: 0.622944, g: 0.633456, b: 0.672, a: 1}
-    - _TopColor: {r: 0.92941177, g: 0.91361177, b: 0.8662118, a: 1}
+    - _BottomColor: {r: 0.13150394, g: 0.09455322, b: 0.1509434, a: 1}
+    - _MiddleColor: {r: 0.0754717, g: 0.016660731, b: 0.06995817, a: 1}
+    - _TopColor: {r: 0, g: 0, b: 0, a: 1}
     - _Up: {r: 0, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []

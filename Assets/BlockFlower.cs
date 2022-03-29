@@ -16,6 +16,7 @@ public class BlockFlower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class BlockFlower : MonoBehaviour
             GameObject temp = Instantiate<GameObject>(newBlock,transform.position,transform.rotation);
             temp.transform.parent = transform;
             temp.GetComponent<BlockAgent>().freq = chain.blockFrequency;
-            blocks[active] = temp;
+            //blocks[active] = temp;
             //blocks[active].transform.parent = transform;
             active++;
         }

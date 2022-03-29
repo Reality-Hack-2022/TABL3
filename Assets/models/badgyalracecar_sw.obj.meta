@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 9bfb4026cbab34644a156e3d4beb2072
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_FrontLeftCaliper_FrontLeftWheel_polished_steel_-_QuadrantFrontLeftMat
+    second: {fileID: 2100000, guid: 5a207ac0961079547abdf959f00247de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_FrontRightCaliper_FrontRightWheel_polished_steel_-_QuadrantFrontRightMat
+    second: {fileID: 2100000, guid: e2c022979eed6fc48a66787c616fb723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_RearLeftCaliper_RearLeftWheel_polished_steel_-_QuadrantRearLeftMat
+    second: {fileID: 2100000, guid: 5936c081209120440a0806d23fb9c0e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_RearRightCaliper_RearRightWheel_polished_steel_-_QuadrantRearRightMat
+    second: {fileID: 2100000, guid: 0241f7e8dfe5595478dd2cb9aa6d8fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_Red_LEDMat
+    second: {fileID: 2100000, guid: 77b9e57ecc0bd4b489d1433f9a95f753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_clear_glassMat
+    second: {fileID: 2100000, guid: 0e58080342092d946a5bb0048e3638f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_clear_thick_glassMat
+    second: {fileID: 2100000, guid: 1f028ad9e38f5114e87a9c84e0e7f45d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_color-2Mat
+    second: {fileID: 2100000, guid: aedde58f62fba3845bac747f05a991ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_color-3Mat
+    second: {fileID: 2100000, guid: 848b2b09a5247834eaa4872fe85081eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_color-4Mat
+    second: {fileID: 2100000, guid: 20c64f3652014834f8fc454e357ada94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_color-5Mat
+    second: {fileID: 2100000, guid: 8537bd3c892138b45bdcd05c8ee7c037, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_colorMat
+    second: {fileID: 2100000, guid: ec9faca82d454614f9dc2e184f3daed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_pinkMat
+    second: {fileID: 2100000, guid: dcfbe41b329114e44a683d541f237af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Root_badgyallll_VISUALIZE_(Default)_Default_shadow_floorMat
+    second: {fileID: 2100000, guid: f62b482dc7b029f4a84a36c2a60701de, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
