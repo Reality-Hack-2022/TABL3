@@ -23,10 +23,6 @@ public class CustomOculusControls : MonoBehaviour
         if (OVRInput.GetDown(OVRInput.RawButton.A))
             if (player.transform.localScale.x >=0.5f)
                 player.transform.localScale -= player.transform.localScale/8;
-        if (OVRInput.Get(OVRInput.RawAxis1D.RHandTrigger)>0.5f || Input.GetKey("w"))
-            player.GetComponent<Transform>().position += transform.forward;
-        if (OVRInput.Get(OVRInput.RawAxis1D.LHandTrigger) > 0.5f || Input.GetKey("s"))
-            player.GetComponent<Transform>().position -= transform.forward;
         /*
         if (Input.GetKeyDown("space"))
 
@@ -37,7 +33,8 @@ public class CustomOculusControls : MonoBehaviour
         
         if (OVRInput.GetDown(OVRInput.RawButton.Y)||Input.GetKeyDown("e"))
         if (OVRInput.GetDown(OVRInput.RawButton.X) || Input.GetKeyDown("q"))
-        
+        if (OVRInput.Get(OVRInput.RawAxis1D.RHandTrigger)>0.5f || Input.GetKey("w"))
+        if (OVRInput.Get(OVRInput.RawAxis1D.LHandTrigger) > 0.5f || Input.GetKey("s"))
         if (OVRInput.GetDown(OVRInput.RawButton.RThumbstick)||Input.GetKeyDown("r"))
         if (OVRInput.GetDown(OVRInput.RawButton.LThumbstick)||Input.GetKeyDown("z"))
         */

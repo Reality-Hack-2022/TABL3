@@ -18,7 +18,7 @@ public class BlockAgent : MonoBehaviour
     void Update()
     {
         count++;
-        portion=(float)count/100.0f;
+        portion=(float)count/3000.0f;
         if(count<=(int)(60.0f*freq))
         {
             transform.localScale = new Vector3(portion,portion,portion);
@@ -26,7 +26,7 @@ public class BlockAgent : MonoBehaviour
         if(count%(int)(60.0f*freq) == 0)
         {
             address++;
-            transform.position += new Vector3(0,0.1f*freq,0);
+            transform.position += new Vector3(-0.05f*freq,0,0);
         }
     }
 }

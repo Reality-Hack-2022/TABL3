@@ -46,6 +46,9 @@ namespace Oculus.Interaction
 
         private ColorState _targetState;
 
+        public GameObject prompts;
+        private bool _show = false;
+
         private Color _currentColor;
         private Color _startColor;
 
@@ -68,6 +71,8 @@ namespace Oculus.Interaction
 
             Assert.IsNotNull(_editor);
 
+            
+
             _targetState = _normalColorState;
             _startColor = _currentColor = _normalColorState.Color;
             _timer = _normalColorState.ColorTime;
@@ -75,6 +80,7 @@ namespace Oculus.Interaction
             _colorShaderID = Shader.PropertyToID(_colorShaderPropertyName);
 
             UpdateVisual();
+            //updatePrompts();
             this.EndStart(ref _started);
         }
 
@@ -100,17 +106,21 @@ namespace Oculus.Interaction
             {
                 case InteractableState.Select:
                     _targetState = _selectColorState;
+                    _show = false;
                     break;
                 case InteractableState.Hover:
                     _targetState = _hoverColorState;
+                    _show = true;
                     break;
                 default:
                     _targetState = _normalColorState;
+                    _show = false;
                     break;
             }
             _timer = 0.0f;
             _startColor = _currentColor;
         }
+
 
         private void Update()
         {
@@ -119,6 +129,10 @@ namespace Oculus.Interaction
             float t = _targetState.ColorCurve.Evaluate(_normalizedTimer);
             _currentColor = Color.Lerp(_startColor, _targetState.Color, t);
             _editor.MaterialPropertyBlock.SetColor(_colorShaderID, _currentColor);
+           
+            if (_show) {
+                prompts.SetActive(true);
+                } else { prompts.SetActive(false); }
         }
 
         private void UpdateVisualState(InteractableStateChangeArgs args) => UpdateVisual();

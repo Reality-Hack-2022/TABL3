@@ -116,7 +116,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -361,7 +361,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Oculus.VR.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Oculus.VR.Scripts.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -387,13 +386,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Oculus.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Oculus.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Features.ConformanceAutomation.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.OpenXR.TestHelpers.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"

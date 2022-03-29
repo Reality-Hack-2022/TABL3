@@ -1,5 +1,4 @@
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_1315E0A407C70415.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_7B1D397D2193763B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_8B44F821019897E5.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_A558B9E65539D7D0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_DA88E6A3E9EB6155.mvfrm
@@ -25,13 +24,6 @@ Library\Bee\artifacts\mvdfrm\Unity.XR.Management.Editor.ref.dll_63D1283B59813AF8
 Library\Bee\artifacts\mvdfrm\Unity.XR.Management.ref.dll_B8AA0C3955A88449.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Oculus.Editor.ref.dll_7B34F9F5328E4DD2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Oculus.ref.dll_F7E0CC0D68418BCF.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.Editor.ref.dll_3621FFDAA8DB43B7.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.Features.ConformanceAutomation.ref.dll_F8E9C0BA9435A965.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.ref.dll_947714FF8A5EE50E.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.Features.OculusQuestSupport.ref.dll_54D437838FE1B0D3.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.ref.dll_CB4BEE4624B29F3F.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.TestHelpers.ref.dll_C2141EF11D6114BF.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.ref.dll_CD391CA4E5ED3B9A.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.SpatialTracking.ref.dll_4005BB3EAE0C01EA.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.TestRunner.ref.dll_A805A84D9B0C22D9.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_0174E068A5FA251B.mvfrm
